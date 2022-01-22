@@ -3,5 +3,437 @@
     margin: 0;
     padding: 0;
 }
+/*Top bar*/
+#top-bar .logo img{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+#top-bar .logo h2{
+    display: inline;
+    margin-top: 30px;
+    font-family: 'lobster';
+    font-size: 35px;
 
-/* object fit:cover;*
+
+        
+}
+#top-bar .logo h2 span{
+    color: #fec13d;
+}
+#top-bar .logo{
+    display: flex;
+    
+}
+
+#nav-bar{
+    margin-left: 25%;
+}
+
+#nav-bar li{
+    display: inline;
+    padding-top: 40px;
+    padding-left: 80px;
+    float: left;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: bold;
+        
+}
+#nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+#nav-bar li a:hover{
+    color: #fec13d;
+}
+
+#cart{
+    width: 1px;
+    height: 1px;
+}
+
+/* edn of top bar*/
+
+
+/* Section 1 */
+
+/*
+#section1{
+    padding-left: 90px;
+    padding-top: 100px;
+    
+}*/
+
+#section1{
+    display: flex;
+}
+
+.section1ab{
+    padding-left: 90px;
+    padding-top: 100px;
+}
+
+#section1 .text .p1{
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#section1 .text .p2{
+    font-family: 'poppins';
+    font-size: 15px;
+    padding-top: 35px;
+}
+
+#order{
+    margin-left: 10px;
+    margin-top: 100px;
+    
+}
+
+#order{
+    
+    height: 50px;
+    width: 150px;    
+    color: white;
+    background-clip: content-box;
+    background-color: #fa963e;
+    border-radius: 50px;
+    
+}
+
+#order h3{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'poppins';
+    font-size: 15px;
+}
+#order h3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#order h3 a:hover{
+    color: black;
+
+    
+}
+
+.section1a{
+    width: 50%;
+    float: left;
+    padding: 0x;
+    
+}
+
+.section1a img{
+    width: 59%;
+    padding-top: 20px;
+    padding-left: 85px;
+    
+    
+}
+
+
+
+/* End of Section 1 */
+
+
+
+/*Section 2*/
+#section2{
+    display: flex;
+    background: #f3f3f3;
+    background-size: cover;
+    
+    
+}
+
+.section2a{
+   margin-top: 4%;
+   margin-bottom: 8%;
+
+   padding: 50px;
+   
+    
+}
+.section2a .section2ab{
+    margin-top: 40px;
+}
+
+
+
+.section2ab{
+    box-sizing: content-box;
+    height: 90%;
+    width: 25%;
+    border:2px solid gray;
+    border-radius: 10px;
+    float: left;
+    padding: 15px;
+    margin-top: 30px;
+
+
+
+}
+.section2abc{
+    box-sizing: content-box;
+    height: 110%;
+    width: 35%;
+    border:2px solid gray;
+    border-radius: 10px;
+    align-items: center;
+    float: left;
+    padding: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.section2ab img{
+    width: 45%;
+    margin-left: 25%;
+    margin-bottom: 5px;
+    
+    
+}
+
+.section2abc img{
+    width: 50%;
+    margin-left: 25%;
+    
+    
+}
+
+
+.section2abc h4 {
+    font-family: 'poppins';
+    text-align: center;
+}
+
+.section2abc p{
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+
+.section2ab h4 {
+    font-family: 'poppins';
+    text-align: center;
+}
+.section2ab p{
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+
+
+/* End of Section 2  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 3 */
+#sectionT h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'poppins';
+
+}
+#sectionT h3 span{
+    color: #fec13d;
+}
+
+#sectionT hr{
+    border: chocolate solid 5px;
+    width: 15%;
+    margin-left: 42.4%;
+}
+
+
+.burgers{
+    display: flex;
+}
+
+.burgers .b1{
+    border: 0px solid black;
+    border-radius: 50px;
+    width: 25%;
+    height: 100%;
+    margin: 5%;
+    box-shadow: 0px 2px 4px 3px grey;
+    
+}
+
+.burgers .b1 .burg1{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;    
+}
+.burgers .b1 h3{
+    font-family: 'poppins';
+    text-align: center;
+    margin-top: 5%;
+    color: #330606;
+}
+
+.burgers .b1 p{
+    font-family: 'poppins';
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.burgers .b1 .ksh-cart{
+    display: flex;
+    margin: 4%;
+}
+.burgers .b1 h4{
+    font-family: 'poppins';
+    margin-left: 5%;
+    margin-top: 14%;
+    font-size: 15px;
+}
+
+.burgers .b1 h4:hover{
+    color: #fec13d;
+}
+
+
+
+.burgers .b1 .shop-cart{
+    width: 9%;
+    height: 45%;
+    margin-left: 42%;
+    margin-top: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 20px;
+    background-color: #E1EBE6;
+}
+
+
+/* End of Section 3  */
+
+
+
+
+
+
+/*Section 4*/
+
+.section4{
+    background-color: #E1EBE6;
+    display: flex;
+    width: 100%;
+    
+}
+
+.section4 .text1{
+    margin: 5%;
+    width: 100%;
+}
+
+.section4 .text1 .par1{
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10%;
+    
+}
+
+.section4 .text1 .par1 span{
+    color: #fec13d;
+}
+
+
+.section4 .text1 .par2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+/* End of Section 3  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of Section 3  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* object fit:cover;*/
