@@ -518,11 +518,16 @@ padding-top: 8px;
     margin-top: 20px;
     display: flex;
 }
+.footer .flogo .fimg{
+    margin-top: 25px;
+}
+
+
 
 .footer .flogo h2{
     font-family: 'lobster';
     font-size: 30px;
-    margin-top: 27px;
+    margin-top: 50px;
 }
 
 .footer .flogo span{
@@ -532,7 +537,7 @@ padding-top: 8px;
 
 .footer .flinks{
     margin-left: 20%;
-    margin-top: 27px;
+    margin-top: 25px;
 }
 
 .footer .flinks h3{
@@ -544,6 +549,7 @@ list-style: none;
 .footer .flinks li{
     padding-top: 10px;
     padding-left: 10px;
+    font-family: 'poppins';
 }
 
 .footer .flinks li a{
@@ -551,6 +557,46 @@ list-style: none;
     color: black;
 }
 
+.footer .flinks li a:hover{
+    color: #fec13d;
+}
+
+
+
+.footer .subscribe{
+    margin-left: 25%;
+    margin-top: 25px;
+
+}
+
+.footer .subscribe .sub1 h3{
+    font-family: 'poppins';
+}
+
+.footer .subscribe .sub-button{
+    width: 70px;
+    display: flex;
+    margin-top: 20%;
+    
+}
+
+.footer .subscribe .sub-button input{
+    height: 10px;
+}
+
+.footer .subscribe .sub-button #sub-email{
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 4px;
+
+}
+
+.footer .subscribe .sub-button #sub2{
+    background-color: #f6b63b;
+    color: white;
+    padding: 21px;
+    border: none;
+}
 
 /* End of footer   */
 
