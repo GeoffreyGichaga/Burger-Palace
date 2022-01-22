@@ -442,31 +442,117 @@ padding-top: 8px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* End of Section 4  */
 
+/* Section 5*/
+
+.section5{
+    background-color: #F6B400;
+    width: 100%;
+    display: flex;
+}
+
+.section5 .part1{
+    display: block;
+    
+
+}
+.section5 .part1 .disc-text{
+    width: 100%;
+    position: relative;
+
+}
+
+
+.section5 .part1 .disc-text p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20%;
+    margin-left: 10%;
+    
+}
+
+
+.section5 .part1 .apps{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.section5 .part1 .apps .ap1{
+    width: 20%;
+}
 
 
 
+
+.section5 .part2 {
+    display: flex;
+    
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.section5 .part2 .phone1{
+    padding: 10%;
+}
+
+
+.section5 .part2 .phone2{
+    padding: 10%;
+}
+
+
+
+
+
+/* End of Section   */
+
+/*Footer*/
+.footer{
+    display: flex;
+}
+.footer .flogo {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer .flogo h2{
+    font-family: 'lobster';
+    font-size: 30px;
+    margin-top: 27px;
+}
+
+.footer .flogo span{
+    color: #fec13d;
+}
+
+
+.footer .flinks{
+    margin-left: 20%;
+    margin-top: 27px;
+}
+
+.footer .flinks h3{
+    font-family: 'poppins';
+}
+.footer .flinks ul{
+list-style: none;
+}
+.footer .flinks li{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer .flinks li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* End of footer   */
 
 
 
