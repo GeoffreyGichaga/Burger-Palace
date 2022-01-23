@@ -521,6 +521,7 @@ padding-top: 8px;
 /*Footer*/
 .footer{
     display: flex;
+    background: whitesmoke;
 }
 .footer .flogo {
     margin-left: 50px;
@@ -605,6 +606,11 @@ list-style: none;
     color: white;
     padding: 21px;
     border: none;
+    font-weight: bold;
+}
+
+.footer .subscribe .sub-button #sub2:hover{
+    color: black;
 }
 
 /* End of footer   */
@@ -647,6 +653,41 @@ list-style: none;
 
 
 
+/*last bar*/
+
+.last-bar{
+    display: flex;
+}
+
+.last-bar .copyright{
+    margin: 10px;
+}
+
+.last-bar .copyright p{
+    font-family: 'poppins';
+    font-size: 12px;
+}
+
+.last-bar .s-media{
+    display: flex;
+    margin-top: 9px;
+    margin-left: 30%;
+}
+
+.last-bar .s-media img{
+    width: 20px;
+    padding-left: 15px;
+}
+
+
+.last-bar .my-name{
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+.last-bar .my-name p{
+    font-family: 'poppins';
+}
 
 
 
@@ -657,6 +698,3 @@ list-style: none;
 
 
 
-
-
-/* object fit:cover;*/
