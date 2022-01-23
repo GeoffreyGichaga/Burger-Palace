@@ -689,6 +689,11 @@ list-style: none;
     font-family: 'poppins';
 }
 
+.last-bar .my-name a{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
