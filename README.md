@@ -11,6 +11,7 @@ The site also give users the option to subscibre to the restaurants newsletter
 
 ## Setup/Installation Requirements
 * SIte can be accessed through this link https://geoffreygichaga.github.io/Burger-Palace/
+* A phone .tablet or a desktop computer
 
 
 ## Known Bugs
